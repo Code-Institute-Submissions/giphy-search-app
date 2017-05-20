@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Http, Response } from '@angular/http';
+import {HeaderComponent} from './header/header.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 @Component({
@@ -19,7 +21,7 @@ export class AppComponent {
   }
 
   performSearch(searchTerm: HTMLInputElement): void {
-    var apiLink = this.link + searchTerm.value;
+    const apiLink = this.link + searchTerm.value;
 
     this.http.request(apiLink)
     .subscribe((res: Response) => {
