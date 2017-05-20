@@ -1,2 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+/*.gifyImage {*/
+  /*display:inline-block !important;*/
+/*}*/
+
+
+/*.overlay {*/
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*z-index: 10;*/
+/*}*/
+
+
+.theGif{
+  text-decoration: none !important;
+}
+
+.mainImage {
+  background-image: url("assets/images/loadingScreen.gif");
+}
