@@ -14,6 +14,8 @@ export const appRoutes = [
     path: 'giphy',
     component: GiphyComponent,
   },
+
+
   // {
   //   path: 'resources/:id',
   //   component: ResourceViewComponent,

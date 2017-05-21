@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app-routing.module';
+import {Ng2PageScrollModule} from 'ng2-page-scroll';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -25,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes),
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    Ng2PageScrollModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

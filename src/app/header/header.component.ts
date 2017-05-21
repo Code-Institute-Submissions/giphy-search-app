@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {MainSectionComponent} from '../main-section/main-section.component';
 
 @Component({
   selector: 'app-header',
