@@ -6,12 +6,18 @@
 /*Projects Section*/
 /*--------------------------------------------------------------*!/*/
 
+#fh5co-projects{
+  border-bottom: 1px inset lightgrey;
+}
 .languageIcons{
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-
+.deviconProject{
+  font-size: 30px !important;
+  margin-right: 10px;
+}
 
 .devicon{
   font-size: 40px;
@@ -20,7 +26,7 @@
 }
 
 .fh5co-projects {
-  border-top:solid 2px black;
+  border-top:2px inset lightgrey;
 }
 
 .theGif{
@@ -41,8 +47,12 @@
   margin-left:50px;
 }
 
+/*.IMdb{*/
+  /*height: 169px !important;*/
+/*}*/
 
-
+/* Demo App Section/
+/*--------------------------------------------------------------*!/*/
 .giphyHolder{
   min-height: 400px;
   border-style:groove;
@@ -51,6 +61,22 @@
 
 }
 
+#fh5co-testimonials {
+  background: #f9f9f9 !important;
+  border-bottom: 1px inset lightgrey;
+}
+
+/*Languages Section*/
+/*--------------------------------------------------------------*!/*/
+.languagesIMG {
+  height:50%;
+  width: 50%;
+}
+
+
+#fh5co-features {
+  border-bottom: 1px inset lightgrey;
+}
 /*SEARCH FORM*/
       /*--------------------------------------------------------------*!/*/
 
@@ -129,4 +155,17 @@
 }
 .searchform button:hover {
   opacity:.9;
+}
+
+
+/*About Section*/
+/*--------------------------------------------------------------*!/*/
+
+.chrisPic {
+  border-radius: 105px !important;
+}
+
+#fh5co-about{
+  border-bottom:1px inset lightgrey
+
 }
