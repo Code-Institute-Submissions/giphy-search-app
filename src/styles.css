@@ -44,12 +44,10 @@
 
 
 .BB{
-  margin-left:50px;
+  margin-left:22%;
 }
 
-/*.IMdb{*/
-  /*height: 169px !important;*/
-/*}*/
+
 
 /* Demo App Section/
 /*--------------------------------------------------------------*!/*/
@@ -59,6 +57,11 @@
   border-radius: 20px;
   padding: 10px;
 
+}
+
+#fh5co-testimonials .demoSection h1{
+  font-size: 40px;
+  font-weight: bold;
 }
 
 #fh5co-testimonials {
@@ -168,4 +171,135 @@
 #fh5co-about{
   border-bottom:1px inset lightgrey
 
+}
+
+
+/*Scroll Buttons*/
+/*--------------------------------------------------------------*!/*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #4CAF50; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  opacity:0.5;
+}
+
+#myBtn:hover {
+  opacity: 1; /* Add a dark-grey background on hover */
+}
+
+.scrollBtn{
+  opacity:0.7;
+}
+
+.scrollBtn:hover{
+  opacity:1;
+}
+
+#fh5co-projects .scroll a {
+  padding-top: 60px;
+}
+#fh5co-projects .scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#fh5co-projects .scroll a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+#fh5co-projects .scroll a span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: sdb03 3s infinite;
+  animation: sdb03 3s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*Responsive Section*/
+/*--------------------------------------------------------------*!/*/
+
+
+@media only screen and (max-width: 767px) {
+
+#fh5co-projects {
+  width:100%;
+}
+
+  .Projects {
+    display:inline-block;
+    min-width: 100%;
+  }
+  .BB {
+    margin-right: 12% !important;
+  }
+  #myBtn{
+    display: none;
+  }
+
+  .ScrollBTN{
+    margin-left: 200px;
+  }
 }
