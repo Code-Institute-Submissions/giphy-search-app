@@ -299,7 +299,9 @@
     display: none;
   }
 
-  .BTNCe{
-    text-align: center!important;
-  }
+
+}
+
+#BTNCe{
+  text-align: center;
 }
