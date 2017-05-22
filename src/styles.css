@@ -302,6 +302,6 @@
 
 }
 
-#BTNCe{
-  text-align: center;
+.BTNCe {
+  text-align: center !important;
 }
