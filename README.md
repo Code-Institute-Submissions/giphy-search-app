@@ -35,6 +35,10 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
 
 ## Themes & Technologies
 
+The Giphy Search App was buil by following this guide:
+
+- https://www.pluralsight.com/guides/front-end-javascript/getting-started-with-angular-2-by-building-a-giphy-search-application
+
 TITLE: 
 Guide - Fully Responsive Free HTML5 template
 
